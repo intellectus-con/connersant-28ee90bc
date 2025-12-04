@@ -13,7 +13,9 @@ const Header = () => {
           <Link to="/" className="hover:opacity-70">About</Link>
         </div>
       </nav>
-      <p className="text-muted-foreground text-sm mt-2">
+      {/* Grey line under title extending to margins */}
+      <div className="h-px bg-grid-line mt-4 -ml-[calc(100vw/2-50%+1rem)] -mr-[calc(100vw/2-50%+1rem)] md:-ml-[calc(100vw/2-50%+2rem)] md:-mr-[calc(100vw/2-50%+2rem)]" />
+      <p className="text-muted-foreground text-sm mt-4">
         Geopolitics · Russia · Military History · Genetics · Technology · War
       </p>
     </header>
