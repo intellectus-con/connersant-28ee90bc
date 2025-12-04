@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
 
 /* Literaturnaya font family */
 @font-face {
@@ -66,7 +66,7 @@
 
     /* Typography */
     --font-serif: 'Literaturnaya', Georgia, 'Times New Roman', serif;
-    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-sans: 'Literaturnaya', Georgia, 'Times New Roman', serif;
 
     /* Spacing */
     --content-width: 680px;

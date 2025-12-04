@@ -5,7 +5,7 @@ const Header = () => {
     <header className="py-8 mb-8">
       <div className="divider-thick mb-6" />
       <nav className="flex items-center justify-between">
-        <Link to="/" className="masthead text-3xl md:text-4xl">
+        <Link to="/" className="masthead text-3xl md:text-4xl uppercase">
           Connersant
         </Link>
         <div className="flex gap-6 text-sm font-medium">
