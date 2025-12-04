@@ -6,7 +6,7 @@ const Header = () => {
       <div className="divider-thick mb-6" />
       <nav className="flex items-center justify-between">
         <Link to="/" className="masthead text-3xl md:text-4xl">
-          The Observer
+          Connersant
         </Link>
         <div className="flex gap-6 text-sm font-medium">
           <Link to="/" className="hover:opacity-70">Archive</Link>
@@ -14,7 +14,7 @@ const Header = () => {
         </div>
       </nav>
       <p className="text-muted-foreground text-sm mt-2">
-        Observations on technology, design, and culture
+        Geopolitics · Russia · Military History · Genetics · Technology · War
       </p>
     </header>
   );
