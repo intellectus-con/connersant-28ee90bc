@@ -7,7 +7,7 @@
 /* Literaturnaya font family */
 @font-face {
   font-family: 'Literaturnaya';
-  src: url('/fonts/Literaturnaya_Regular.ttf') format('truetype');
+  src: url('./assets/fonts/Literaturnaya_Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'Literaturnaya';
-  src: url('/fonts/Literaturnaya_Bold.ttf') format('truetype');
+  src: url('./assets/fonts/Literaturnaya_Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -23,7 +23,7 @@
 
 @font-face {
   font-family: 'Literaturnaya';
-  src: url('/fonts/Literaturnaya_Bold_Italic.ttf') format('truetype');
+  src: url('./assets/fonts/Literaturnaya_Bold_Italic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
