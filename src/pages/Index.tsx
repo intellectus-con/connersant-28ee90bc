@@ -15,12 +15,12 @@ const Index = () => {
       <main className="container max-w-content mx-auto px-6 relative z-10">
         <Header />
         
-        <section>
-          <div className="divider mb-2" />
+        <section className="-mx-6">
+          <div className="h-px bg-grid-line mx-2 md:mx-0 mb-2" />
           {articles.map((article, index) => (
-            <div key={article.slug}>
+            <div key={article.slug} className="px-6">
               <ArticleListItem article={article} />
-              {index < articles.length - 1 && <div className="divider" />}
+              {index < articles.length - 1 && <div className="h-px bg-grid-line -mx-4 md:-mx-6" />}
             </div>
           ))}
         </section>
