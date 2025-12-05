@@ -65,8 +65,8 @@
     --grid-line: 0 0% 92%;
 
     /* Typography */
-    --font-serif: 'Literaturnaya', Georgia, 'Times New Roman', serif;
-    --font-sans: 'Literaturnaya', Georgia, 'Times New Roman', serif;
+    --font-serif: 'Literaturnaya';
+    --font-sans: 'Literaturnaya';
 
     /* Spacing */
     --content-width: 680px;
