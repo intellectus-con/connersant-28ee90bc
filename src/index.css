@@ -112,8 +112,8 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-serif);
-    font-weight: 600;
+    font-family: 'Literaturnaya';
+    font-weight: 700;
     line-height: 1.2;
   }
 
@@ -129,10 +129,16 @@
 
 @layer components {
   .masthead {
-    font-family: var(--font-serif);
+    font-family: 'Literaturnaya';
     font-weight: 700;
     font-style: italic;
     letter-spacing: -0.02em;
+  }
+
+  /* Ensure all bold text uses Literaturnaya Bold */
+  strong, b, .font-bold, .font-semibold, .font-medium {
+    font-family: 'Literaturnaya';
+    font-weight: 700;
   }
 
   .article-title {
