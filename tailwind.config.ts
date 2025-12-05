@@ -53,8 +53,8 @@ export default {
         },
       },
       fontFamily: {
-        serif: ["var(--font-serif)"],
-        sans: ["var(--font-sans)"],
+        serif: ["Literaturnaya"],
+        sans: ["Literaturnaya"],
       },
       borderRadius: {
         lg: "var(--radius)",
