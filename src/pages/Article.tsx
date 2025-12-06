@@ -1,7 +1,13 @@
 import { useParams, Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { articles } from "@/data/articles";
+import { articles } from "@/content/articles";
+import { 
+  ArticleImageRenderer, 
+  ImageGallery, 
+  SidebarImage,
+  processBodyWithImages 
+} from "@/components/ArticleImages";
 
 const Article = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -27,6 +33,14 @@ const Article = () => {
       </div>
     );
   }
+
+  // Render body content based on image layout
+  const renderBody = () => {
+    if (article.imageLayout === 'inline') {
+      return processBodyWithImages(article.body, article.inlineImages);
+    }
+    return <div dangerouslySetInnerHTML={{ __html: article.body }} />;
+  };
 
   return (
     <div className="min-h-screen bg-background relative">
@@ -54,10 +68,30 @@ const Article = () => {
 
           <div className="divider-thick mb-10" />
 
-          <div 
-            className="content-prose"
-            dangerouslySetInnerHTML={{ __html: article.body }}
-          />
+          {/* Hero image - displayed before content */}
+          {(article.imageLayout === 'hero' || article.imageLayout === 'hero-split') && (
+            <ArticleImageRenderer article={article} />
+          )}
+
+          {/* Gallery - displayed before content */}
+          {article.imageLayout === 'gallery' && article.galleryImages && (
+            <ImageGallery images={article.galleryImages} />
+          )}
+
+          {/* Sidebar layout - image floats with content */}
+          {article.imageLayout === 'sidebar' && article.sidebarImage && (
+            <div className="content-prose clearfix">
+              <SidebarImage image={article.sidebarImage} />
+              {renderBody()}
+            </div>
+          )}
+
+          {/* Standard layouts (hero, inline, none) */}
+          {article.imageLayout !== 'sidebar' && (
+            <div className="content-prose">
+              {renderBody()}
+            </div>
+          )}
         </article>
 
         <div className="py-8 border-t border-border">
