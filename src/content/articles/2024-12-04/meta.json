@@ -1,0 +1,19 @@
+{
+  "slug": "the-future-of-technology",
+  "title": "The Future of Technology Is Quieter Than You Think",
+  "subheader": "Why the next decade will be defined by invisible innovation",
+  "date": "DEC 4",
+  "dateISO": "2024-12-04",
+  "category": "Technology",
+  "imageLayout": "hero",
+  "thumbnail": {
+    "src": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+    "alt": "Abstract technology circuits"
+  },
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop",
+    "alt": "Abstract technology circuits representing invisible innovation",
+    "caption": "The most profound technologies disappear into everyday life",
+    "credit": "Photo by Alexandre Debiève"
+  }
+}
