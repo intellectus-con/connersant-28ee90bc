@@ -11,6 +11,11 @@ export const article: Article = {
   dateISO: '2024-11-28',
   category: 'Economics',
   
+  thumbnail: {
+    src: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&h=300&fit=crop',
+    alt: 'Stock market trading floor'
+  },
+  
   imageLayout: 'gallery',
   galleryImages: [
     {

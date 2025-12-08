@@ -24,6 +24,9 @@ export interface Article {
   dateISO: string;        // ISO date for sorting (e.g., "2024-12-04")
   category: string;
   
+  // Thumbnail for article list (optional - uses heroImage if not provided)
+  thumbnail?: ArticleImage;
+  
   // Image configuration
   imageLayout: ImageLayout;
   heroImage?: ArticleImage;           // For 'hero' and 'hero-split' layouts

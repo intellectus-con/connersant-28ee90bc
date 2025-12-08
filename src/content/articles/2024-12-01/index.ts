@@ -11,6 +11,11 @@ export const article: Article = {
   dateISO: '2024-12-01',
   category: 'Design',
   
+  thumbnail: {
+    src: 'https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=400&h=300&fit=crop',
+    alt: 'Minimal zen garden representing simplicity in design'
+  },
+  
   imageLayout: 'inline',
   inlineImages: [
     {
