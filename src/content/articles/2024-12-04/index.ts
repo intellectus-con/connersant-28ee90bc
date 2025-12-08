@@ -11,6 +11,11 @@ export const article: Article = {
   dateISO: '2024-12-04',
   category: 'Technology',
   
+  thumbnail: {
+    src: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop',
+    alt: 'Abstract technology circuits'
+  },
+  
   imageLayout: 'hero',
   heroImage: {
     src: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=675&fit=crop',
