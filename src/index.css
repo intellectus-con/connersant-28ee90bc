@@ -224,4 +224,48 @@
   .content-prose ol li {
     margin-bottom: 0.75rem;
   }
+
+  /* Floated images */
+  .content-prose figure.float-left {
+    float: left;
+    margin: 0.5rem 1.5rem 1rem 0;
+    max-width: 280px;
+    width: 40%;
+  }
+
+  .content-prose figure.float-right {
+    float: right;
+    margin: 0.5rem 0 1rem 1.5rem;
+    max-width: 280px;
+    width: 40%;
+  }
+
+  .content-prose figure.float-left img,
+  .content-prose figure.float-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-prose figure.float-left figcaption,
+  .content-prose figure.float-right figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: hsl(var(--muted-foreground));
+  }
+
+  @media (max-width: 640px) {
+    .content-prose figure.float-left,
+    .content-prose figure.float-right {
+      float: none;
+      max-width: 100%;
+      width: 100%;
+      margin: 1.5rem 0;
+    }
+  }
+
+  .content-prose .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
