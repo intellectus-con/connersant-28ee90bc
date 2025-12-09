@@ -9,6 +9,7 @@ import finalImage from './gaelicwig.jpeg';
 
 // Replace image placeholders with actual imported paths
 const processedContent = contentHtml
+  .replace('{{heroImage}}', heroImage)
   .replace('{{leftImage}}', leftImage)
   .replace('{{rightImage}}', rightImage)
   .replace('{{celtsMap}}', celtsMap)
@@ -20,11 +21,6 @@ export const article: Article = {
     src: heroImage,
     alt: meta.thumbnail?.alt || "Celts by Angus McBride",
   },
-  heroImage: {
-    src: heroImage,
-    alt: meta.heroImage?.alt || "Celts by Angus McBride",
-    caption: meta.heroImage?.caption,
-    credit: meta.heroImage?.credit,
-  },
+  imageLayout: 'inline' as const,
   body: processedContent,
 } as Article;
