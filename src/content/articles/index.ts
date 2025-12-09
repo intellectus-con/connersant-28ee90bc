@@ -1,22 +1,16 @@
 // Central registry of all articles
 // Import each article from its date folder and export in reverse chronological order
 
-import { article as TheFianna } from './2025-12-08';
-import { article as futureTechnology } from './2024-12-04';
-import { article as onSimplicity } from './2024-12-01';
-import { article as marketsAndMeaning } from './2024-11-28';
-import { article as architectureOfAttention } from './2024-11-24';
+import { article as TheFianna } from "./2025-12-08";
+import { article as futureTechnology } from "./2024-12-04";
+import { article as onSimplicity } from "./2024-12-01";
+import { article as marketsAndMeaning } from "./2024-11-28";
+import { article as architectureOfAttention } from "./2024-11-24";
 
-export type { Article, ArticleImage, ImageLayout } from './types';
+export type { Article, ArticleImage, ImageLayout } from "./types";
 
 // Articles in reverse chronological order (newest first)
-export const articles = [
-  TheFianna
-  futureTechnology,
-  onSimplicity,
-  marketsAndMeaning,
-  architectureOfAttention,
-];
+export const articles = [TheFianna, futureTechnology, onSimplicity, marketsAndMeaning, architectureOfAttention];
 
 /*
 =============================================================================
