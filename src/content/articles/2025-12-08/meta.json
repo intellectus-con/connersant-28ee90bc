@@ -1,0 +1,19 @@
+{
+  "slug": "the-fianna",
+  "title": "The Fianna",
+  "subheader": "Violent brotherhood of youth",
+  "date": "DEC 8",
+  "dateISO": "2025-12-08",
+  "category": "History",
+  "imageLayout": "hero",
+  "thumbnail": {
+    "src": "src/content/articles/2025-12-08/celtsangus.jpeg",
+    "alt": "Celts by Angus McBride"
+  },
+  "heroImage": {
+    "src": "src/content/articles/2025-12-08/celtsangus.jpeg",
+    "alt": "Celts by Angus McBride",
+    "caption": "Celtic warband engages Romans",
+    "credit": "Credit to the incredible Angus McBride"
+  }
+}
