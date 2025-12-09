@@ -6,7 +6,7 @@ interface FeaturedArticleProps {
 }
 
 const FeaturedArticle = ({ article }: FeaturedArticleProps) => {
-  const imageUrl = article.heroImage?.src || article.thumbnail?.src;
+  const imageUrl = article.thumbnail?.src;
   
   return (
     <article className="mb-8">
