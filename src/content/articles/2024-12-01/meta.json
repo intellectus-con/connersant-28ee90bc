@@ -1,13 +1,10 @@
 {
-  "slug": "on-simplicity",
-  "title": "On Simplicity",
-  "subheader": "The case for doing less, better",
+  "slug": "template-3",
+  "title": "Template Article 3",
+  "subheader": "This is a template article placeholder",
   "date": "DEC 1",
   "dateISO": "2024-12-01",
-  "category": "Philosophy",
+  "category": "Template",
   "imageLayout": "none",
-  "thumbnail": {
-    "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
-    "alt": "Minimal zen garden"
-  }
+  "thumbnail": null
 }
