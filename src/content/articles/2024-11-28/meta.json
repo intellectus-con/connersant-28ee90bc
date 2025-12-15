@@ -1,20 +1,10 @@
 {
-  "slug": "markets-and-meaning",
-  "title": "Markets and Meaning",
-  "subheader": "How financial systems create shared understanding",
+  "slug": "template-2",
+  "title": "Template Article 2",
+  "subheader": "This is a template article placeholder",
   "date": "NOV 28",
   "dateISO": "2024-11-28",
-  "category": "Economics",
-  "imageLayout": "inline",
-  "thumbnail": {
-    "src": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&h=300&fit=crop",
-    "alt": "Stock market chart"
-  },
-  "inlineImages": [
-    {
-      "src": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop",
-      "alt": "Market data visualization showing price movements",
-      "caption": "Markets reflect collective beliefs, not just economic fundamentals"
-    }
-  ]
+  "category": "Template",
+  "imageLayout": "none",
+  "thumbnail": null
 }

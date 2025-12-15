@@ -1,18 +1,10 @@
 {
-  "slug": "the-architecture-of-attention",
-  "title": "The Architecture of Attention",
-  "subheader": "Designing environments for focus in an age of distraction",
+  "slug": "template-1",
+  "title": "Template Article 1",
+  "subheader": "This is a template article placeholder",
   "date": "NOV 24",
   "dateISO": "2024-11-24",
-  "category": "Productivity",
-  "imageLayout": "sidebar",
-  "thumbnail": {
-    "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=300&fit=crop",
-    "alt": "Minimalist workspace"
-  },
-  "sidebarImage": {
-    "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=600&fit=crop",
-    "alt": "Clean, focused workspace designed for deep work",
-    "caption": "Environment shapes attention"
-  }
+  "category": "Template",
+  "imageLayout": "none",
+  "thumbnail": null
 }
